@@ -1,0 +1,626 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: auto !important;
+  font-family: "Advent Pro", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.5);
+}
+.headingcenter-img{
+  text-align: center;
+  margin: 0px 0px 276px 5px;
+  font-family: "Advent Pro", sans-serif;
+  font-size: 4.7rem;
+  font-style: bolder;
+  font-weight: 700;
+}
+.parcenter-img{
+  letter-spacing: .8rem;
+  text-align: center;
+  margin: 0px 30px 0px px;
+}
+
+nav .logo img {
+  width: 120px;
+  margin: 0px;
+  padding: 22px;
+  cursor: pointer;
+}
+.logo {
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+
+  width: 350px;
+  text-align: center;
+  justify-content: left;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  width: 100%;
+  /* font-family: small sans-serif; */
+  padding: 31px 0 0 15px;
+  font-family: "Advent Pro", sans-serif !important;
+}
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  display: block;
+  background-color: #ffffff;
+}
+
+nav ul li a:hover {
+  color: chartreuse;
+}
+
+.Hero-image {
+  /* overflow: hidden; */
+  display: flex;
+  /* overflow-x: hidden; */
+  scrollbar-width: none;
+  max-width: max-content;
+}
+.Image-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-image {
+  height: 450px;
+  width: 411px;
+  margin-top: none;
+}
+.custom-image1{
+  height: 450px;
+  width: 411px;
+  margin-top: 112px;
+}
+.custom-padding {
+  padding-top: 108px;
+}
+.custom-padding-img{
+  /* padding-top: 131px; */
+  margin: 20px 0px 0px 20px;
+}
+.main {
+  display: flex;
+  width: 100%;
+  padding: 0 0 0 169px !important;
+}
+.main .h1 {
+  font-size: 60px;
+  position: absolute;
+  top: 90px;
+  left: 80px;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  margin-left: 2px;
+  max-width: 59vw;
+  line-height: 1.8;
+  margin-top: 20px;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.main .men_text h1 span {
+  display: inline-block;
+  /* margin-left: 15px; */
+  color: #bdd239;
+  font-weight: 200;
+  font-size: 50px;
+}
+.heading {
+  text-align: center;
+  padding-top: 38px;
+  font-weight: 700;
+  font-size: 38px;
+  /* border-bottom: 1px solid #ddd; */
+  color: black;
+  margin: 0 0 15px;
+  width: 100%;
+  height: 100px;
+  font-family: "Advent Pro", sans-serif;
+}
+a:active,
+a:focus,
+a:visited {
+  text-decoration: none;
+  outline: 0;
+}
+.custom-bg-image {
+  margin-top: 0vmax;
+  background-image: url(./shop-bg-1.png);
+  padding-top: 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.head {
+  padding-bottom: 100px;
+}
+
+.Style {
+  padding: 2vw;
+  background-image: url(./abtt.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.card1img {
+  width: 200px;
+  height: auto;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 130px 0 94px;
+}
+h5 {
+  /* font-weight: bolder; */
+  font-family: "Advent Pro", sans-serif;
+  text-align: center;
+  padding: 10px;
+  
+}
+.card1:hover,
+.card2:hover,
+.card3:hover {
+  /* height: 100px;
+  width: 100%; */
+  cursor: pointer;
+  overflow: hidden;
+  object-fit: cover;
+  transition: 0.2s linear;
+  transform: scale(1.1);
+}
+.head{
+  text-align: center;
+  padding-top: 38px;
+  font-weight: 700;
+  font-size: 42px;
+  /* border-bottom: 1px solid #ddd; */
+  color: black;
+  margin: 0 0 15px;
+  width: 100%;
+  height: 100px;
+  font-family: "Advent Pro", sans-serif;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 13px !important;
+  height: 15px !important;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+  border-radius: 50%;
+}
+.custom-indicators{
+  width: 11px !important;
+  height: 15px !important;
+}
+.cus-img{
+width: 100% !important;
+height: 91vh !important;
+margin-bottom: 48px;
+}
+
+.main1 .men-text h2 {
+  display: flex;
+  color: #000;
+  font-weight: bold;
+  font-family: "Advent Pro", sans-serif;
+  width: 456px;
+  height: 64px;
+  font-size: 72px;
+  text-transform: capitalize;
+  line-height: 1;
+  margin-top: -0.14em;
+  margin-bottom: 9px;
+}
+.men-text{
+  margin-bottom: 40px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.main1 .men-text h3{
+  display: flex;
+  color: #bdd239;
+  font-weight: 200;
+  font-size: 65px;
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: "Advent Pro", sans-serif;
+  text-transform: capitalize;
+}
+.icon{
+  width: 40px;
+  height: 15px;
+  margin: 15px 0px 20px;
+}
+.box{
+  font-family: "Lato", sans-serif;
+  width: 456px;
+  height: 134px;
+  font-size: 16px;
+  color: #060938;
+  font-weight: bold;
+  font-style: italic;
+}
+.body-text,
+.h2,
+.h3,
+.p{
+  
+  text-align: center;
+}
+.button-img{
+  color: rgb(255, 255, 255);
+  background-color: rgb(189 210 57);
+  border-color: rgb(189 210 57);
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+.button-img:hover{
+  color: #7b8e04;
+  background-color: #e0ec98;
+  border-color: #7b8e04;
+}
+.accordion-button{
+  font-weight: 600;
+  font-size: 18px !important;
+  font-family: "Advent Pro", sans-serif;
+  color: #000 !important;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #f1e4e4;
+  padding: 12px 0;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 0;
+  overflow-anchor: none;
+
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-active-icon);
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+.custom-back-img{
+  background-image: url(./shop-bg-1.png);
+
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; */
+  margin-top: 8vmax;
+  
+}
+
+.custom-paddingimg {
+  max-width: 100%;
+  vertical-align: middle ;
+  height: 477px ;
+  width: 523px ;
+  margin: -45px 23px 0px 60px;
+}
+.back-text{
+  font-size: 72px;
+  text-transform: capitalize;
+  line-height: 1;
+  margin-top: -0.14em;
+  margin-bottom: 20px;
+  font-family: "Advent Pro", sans-serif;
+  font-weight: bold;
+  padding-top: 119px;
+}
+.accordion-button{
+  background-color: white;
+  padding-top: 0;
+  outline: none;
+  box-shadow: none;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #f1e4e4;
+  padding: 12px 0;
+}
+.custom-last{
+  background-image: url(./bg1.png);
+  margin-top: 8vmax;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  max-width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: middle;
+  padding-top: 80px;
+  margin-bottom: 70px;
+  display: flex;
+}
+.Serial{
+font-size: 18px;
+font-family: "Lato", sans-serif !important;
+color: black;
+text-align: start;
+margin: 0px;
+}
+.custom-padding-imgges{
+  height: 450px;
+  width: 411px;
+  margin-top: 112px;
+}
+.lastbox{
+  text-align: center;
+}
+.headingh2{
+  font-family: "Advent Pro", sans-serif;
+  font-size: 72px;
+  text-transform: capitalize;
+  line-height: 1;
+  margin-top: -0.14em;
+  margin-bottom: 20pxs;
+  color: #000;
+  font-weight: 700;
+}
+.sectin-1::-webkit-scrollbar{
+  display: none;
+}
+.sectin-1{
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-left: 12px;
+  display: flex;
+}
+/* .sectin-1:hover{
+  color: #bdd239;
+} */
+.member-links{
+
+  position: absolute;
+  top: 85%;
+  left: 27%;
+}
+.member-links a{
+  margin: 5px;
+}
+.member-links a i{
+  background-color: #ffff;
+  border-radius: 50%;
+  text-align: center;
+  color: gray;
+  padding: 12px 12px;
+
+  
+}
+
+.th{
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: 12px;
+}
+.th img{
+  background-position: center;
+  background-size: cover ;
+  border-radius: 220px;
+  box-shadow: 12px 12px 12px #bdd239;
+
+}
+/* footer section  */
+
+.member-links a:hover{
+  color: #bdd239;
+  
+}
+
+.col-xl-3,
+.col-xl-2,
+.col-xl-4{
+  flex: 0 0 auto;
+  width: 25%;
+  margin: 90px 0px 90px 0px !important;
+  font-family: "Advent Pro", sans-serif;
+}
+.row{
+  max-width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+.vs-btn {
+  display: inline-block;
+  border: none;
+  padding: 12px 37px;
+  border-radius: 9999px;
+  background-color: #bdd239;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  font-size: 16px;
+  transition: color 300ms ease-in-out;
+}
+
+.vs-btn::after{
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: black;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+}
+
+.vs-btn:focus::after{
+  transform: scaleX(3);
+}
+
+.col-xl-3{
+  flex: 0 0 auto;
+  width: 25%;
+  margin-bottom: 40px;
+  color: #959595;
+  
+}
+.text{
+  color: #959595;
+}
+
+.yt a{
+  text-decoration: none;
+}
+.hh:hover{
+  color: #bdd239;
+}
+.text-body3:hover{
+  color: #bdd239;
+}
+.red{
+/* background-color: red; */
+display: flex;
+flex-direction: column;
+
+}
+.red li{
+  margin-top: 12px;
+  list-style: none;
+}
+.red li a{
+  text-decoration: none;
+  color: #959595;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin-left: -30px;
+  
+}
+
+.text-icon2{
+  content: "\f0e0";
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-size: 16px;
+  font-family: "Lato", sans-serif !important;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: #959595;
+  list-style-type: none;
+}
+.envelope:hover{
+  color: #bdd239;
+}
+.link-inherit a, .link-inherit * a {
+  color: inherit;
+  font-size: 15px;
+}
+.pb-35 {
+  color: #060938;
+  font-size: 14px;
+  /* margin: 36px 147px 304px 0px; */
+}
+.last-link{
+  width: 172px;
+  height: 19px;
+  color: inherit;
+  text-decoration: none;
+  outline: 0;
+}
+.last-link:hover{
+  color: #bdd239;
+}
+.col-xl-2{
+flex: 0 0 auto;
+width: 16%;
+margin-bottom: 40px;
+}
+.all-links{
+  color: #bdd239;
+  margin-right: 10px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.col-xl-4{
+  color: #959595;
+}
+.tab{
+  color: #959595;
+  text-decoration: none;
+  list-style-type: none;
+}
+.re:hover{
+  color: #bdd239;
+
+}
